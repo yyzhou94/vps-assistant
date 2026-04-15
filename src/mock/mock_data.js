@@ -13,34 +13,16 @@ export const mockData = {
           "description": "生成 RSA 4096 位密钥对"
         },
         {
-          "id": "ssh-copy-id",
-          "name": "复制公钥到服务器",
-          "url": "ssh-copy-id user@hostname",
-          "description": "将公钥复制到远程服务器"
-        },
-        {
           "id": "ssh-login",
           "name": "SSH 登录服务器",
           "url": "ssh -p 22 user@hostname",
           "description": "使用指定端口登录服务器"
         },
         {
-          "id": "ssh-with-key",
-          "name": "使用指定密钥登录",
-          "url": "ssh -i /path/to/key.pem user@hostname",
-          "description": "使用指定私钥文件登录"
-        },
-        {
           "id": "ssh-port-forward",
           "name": "SSH 端口转发",
           "url": "ssh -L 8080:localhost:80 user@hostname",
           "description": "本地端口转发到远程服务器"
-        },
-        {
-          "id": "ssh-tunnel",
-          "name": "SSH 反向隧道",
-          "url": "ssh -R 8080:localhost:3000 user@gateway.com",
-          "description": "将本地服务暴露到公网"
         },
         {
           "id": "scp-copy",
@@ -561,6 +543,5 @@ export const mockData = {
       ]
     }
   ],
-  "title": "VPS 助手",
-  "search": "bing"
+  "title": "VPS 助手"
 }
