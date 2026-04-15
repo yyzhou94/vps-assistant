@@ -32,7 +32,7 @@
     <aside class="sidebar">
       <!-- Logo区域 -->
       <div class="logo-section">
-        <img src="/icons/server-cog.svg" alt="logo" class="logo" />
+        <img src="/logo.png" alt="logo" class="logo" />
         <h1 class="site-title">{{ title || 'VPS 助手' }}</h1>
       </div>
 
